@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gmail.andrewchouhs.controllerAndView.ScheduleEditingPageController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="527.0" prefWidth="772.0" spacing="40.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label text="%ScheduleEditingPage.Name" />
+                  <TextField fx:id="nameTextField" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label text="%ScheduleEditingPage.StartTime" />
+                  <DatePicker fx:id="startTimeDatePicker" maxWidth="145.0" minWidth="145.0" prefWidth="145.0" />
+                  <Spinner fx:id="startTimeHourSpinner" editable="true" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" />
+                  <Label text="%ScheduleEditingPage.Hour" />
+                  <Spinner fx:id="startTimeMinuteSpinner" editable="true" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" />
+                  <Label text="%ScheduleEditingPage.Minute" />
+                  <Spinner fx:id="startTimeSecondSpinner" editable="true" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" />
+                  <Label text="%ScheduleEditingPage.Second" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label text="%ScheduleEditingPage.EndTime" />
+                  <DatePicker fx:id="endTimeDatePicker" maxWidth="145.0" minWidth="145.0" prefWidth="145.0" />
+                  <Spinner fx:id="endTimeHourSpinner" editable="true" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" />
+                  <Label text="%ScheduleEditingPage.Hour" />
+                  <Spinner fx:id="endTimeMinuteSpinner" editable="true" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" />
+                  <Label text="%ScheduleEditingPage.Minute" />
+                  <Spinner fx:id="endTimeSecondSpinner" editable="true" maxWidth="75.0" minWidth="75.0" prefWidth="75.0" />
+                  <Label text="%ScheduleEditingPage.Second" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Label text="%ScheduleEditingPage.ScheduleType" />
+                  <ChoiceBox fx:id="scheduleTypeChoiceBox" maxWidth="190.0" minWidth="190.0" prefWidth="190.0" />
+                  <Label text="%ScheduleEditingPage.Color" />
+                  <ColorPicker fx:id="colorPicker" maxWidth="130.0" minWidth="130.0" prefWidth="130.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="100.0">
+               <children>
+                  <Button maxWidth="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#okButton" prefWidth="75.0" text="%ScheduleEditingPage.Button.OKButton" />
+                  <Button maxWidth="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#cancelButton" prefWidth="75.0" text="%ScheduleEditingPage.Button.CancelButton" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

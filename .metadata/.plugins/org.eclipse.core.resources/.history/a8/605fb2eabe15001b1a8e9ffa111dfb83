@@ -1,0 +1,72 @@
+package pld;
+
+public class hw2_2 {
+	public static void main(String[] args) {
+		System.out.println();
+
+	}
+}
+
+abstract class Exp {
+	public abstract Object accept(Visitor v);
+}
+
+class Lit extends Exp {
+	public boolean val;
+
+	public Lit(boolean val) {
+		this.val = val;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+class and extends Exp {
+	public Exp e1, e2;
+	public and(Exp a1, Exp a2) {
+		e1 = a1;
+		e2 = a2;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+class or extends Exp {
+	public Exp e1, e2;
+	public or(Exp a1, Exp a2) {
+		e1 = a1;
+		e2 = a2;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+class not extends Exp {
+	public Exp e1;
+	public not(Exp a1) {
+		e1 = a1;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+interface Visitor {
+	public Object visit(Lit e);
+	public Object visit(and n);
+	public Object visit(or n);
+	public Object visit(not n);
+	class Interpreter implements Visitor {
+		public Object visit(Lit n) {
+			return n.val;
+		}
+		public Object visit(and n) {
+			return n.e1.accept(this) & n.e2.accept(this);
+		}
+		public Object visit(or n) {
+		  return n.e1.accept(this) | n.e2.accept(this);
+		}
+		public Object visit(not n) {
+			  return !n.e1.accept(this);
+		}
+	}
+}

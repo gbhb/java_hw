@@ -1,0 +1,12 @@
+package ce1002.a2.s107502558;
+
+public class Lit extends Exp {
+    private boolean val;
+    public Lit(boolean val) {
+        this.val = val;
+    }
+    
+    public boolean eval() {
+        return this.val;
+    }
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane minHeight="585.0" minWidth="788.0" prefHeight="585.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.GameController2">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true">
+         <image>
+            <Image url="@6b82dab47113e85fecffa3f73290bbcda4e9a2811fe5b1-8640Jg_fw658.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="585.0" fitWidth="788.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@b25a54787686e06726ab40d70b6eee26.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="touch1" layoutX="358.0" layoutY="55.0" mnemonicParsing="false" onMouseClicked="#touch1" opacity="0.0" prefHeight="372.0" prefWidth="304.0" />
+      <Button fx:id="touch2" layoutX="469.0" layoutY="447.0" mnemonicParsing="false" onMouseClicked="#touch2" opacity="0.0" prefHeight="124.0" prefWidth="140.0" />
+      <ImageView fx:id="head" fitHeight="436.0" fitWidth="340.0" layoutX="299.0" layoutY="-3.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@UXFhcvI.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="next" cancelButton="true" defaultButton="true" mnemonicParsing="false" onAction="#_next" onMouseClicked="#_next" text="next stage" visible="false" />
+      <Button fx:id="next2" mnemonicParsing="false" onMouseClicked="#_next2" text="next stage" visible="false" />
+      <Button fx:id="stop" layoutX="83.0" mnemonicParsing="false" onMouseClicked="#_stop" prefHeight="23.0" prefWidth="77.0" text="stop music" visible="false" />
+      <GridPane fx:id="grid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="788.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="p1" fitHeight="292.0" fitWidth="196.0" onMouseClicked="#one" pickOnBounds="true" smooth="false" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@yuri-ddlc-funny-gif-1.gif" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p3" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#three" pickOnBounds="true" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@yuri-ddlc-funny-gif-1.gif" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p6" fitHeight="293.0" fitWidth="197.0" onMouseClicked="#six" pickOnBounds="true" smooth="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@909b3dd9aff1cb2beb9883b62c3a1e416d0c3c6a.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p5" fitHeight="292.0" fitWidth="195.0" onMouseClicked="#five" pickOnBounds="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@909b3dd9aff1cb2beb9883b62c3a1e416d0c3c6a.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p0" fitHeight="293.0" fitWidth="197.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@sayori_by_nam_namii_dbrvt7h-pre.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p2" fitHeight="292.0" fitWidth="195.0" onMouseClicked="#two" pickOnBounds="true" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@sayori_by_nam_namii_dbrvt7h-pre.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p4" fitHeight="292.0" fitWidth="196.0" onMouseClicked="#four" pickOnBounds="true" smooth="false" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@133153296-256-k318317.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="p7" fitHeight="294.0" fitWidth="197.0" onMouseClicked="#seven" pickOnBounds="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@133153296-256-k318317.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="one" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#one" pickOnBounds="true" smooth="false" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="two" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#two" pickOnBounds="true" smooth="false" GridPane.columnIndex="2">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="three" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#three" pickOnBounds="true" smooth="false" GridPane.columnIndex="3">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="six" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#six" pickOnBounds="true" smooth="false" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="seven" fitHeight="296.0" fitWidth="198.0" onMouseClicked="#seven" pickOnBounds="true" smooth="false" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="four" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#four" pickOnBounds="true" smooth="false" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="zero" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#zero" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="five" fitHeight="294.0" fitWidth="198.0" onMouseClicked="#five" pickOnBounds="true" smooth="false" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@card.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <ImageView fitHeight="456.0" fitWidth="455.0" layoutX="788.0" layoutY="380.0" onMouseClicked="#touch3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tumblr_p59jz0KmNY1umwagvo1_250.gif" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

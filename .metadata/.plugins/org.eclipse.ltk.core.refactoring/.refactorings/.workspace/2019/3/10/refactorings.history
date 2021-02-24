@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="刪除資源 &apos;ce1002.e2.s107502558&apos;" deleteContents="true" description="刪除資源 &apos;ce1002.e2.s107502558&apos;" element1="/ce1002.e2.s107502558" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1552025195921"/>
+</session>

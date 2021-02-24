@@ -1,0 +1,12 @@
+package ce1002.a2.s107502558;
+
+public class or extends Exp {
+    private Exp e1,e2;
+    public or(Exp a1) {
+        this.val = val;
+    }
+    
+    public boolean eval() {
+        return this.val;
+    }
+}

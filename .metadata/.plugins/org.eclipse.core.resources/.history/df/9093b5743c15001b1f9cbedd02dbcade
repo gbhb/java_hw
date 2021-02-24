@@ -1,0 +1,17 @@
+package pld;
+
+public class hw2{
+
+	public static void main(String[] args) {
+		System.out.println((new And(new Lit(true), new Lit(false))).eval()); 
+		System.out.println((new And(new Lit(true), new Lit(true))).eval()); 
+		System.out.println((new Or(new Lit(true), new Lit(false))).eval()); 
+		System.out.println((new Or(new Lit(false), new Lit(false))).eval()); 
+		System.out.println(new Not(new Lit(false)).eval());
+		System.out.println(new Not(new Lit(true)).eval());
+		System.out.println(new Lit(false).toSExp());
+		System.out.println(new Lit(true).toSExp());
+		System.out.println((new Or(new Lit(true), new Lit(false))).toSExp());
+	}
+
+}

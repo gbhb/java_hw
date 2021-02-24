@@ -1,0 +1,53 @@
+[2019-06-21 08:35:56.511] [sharedprocess] [info] main {"machineId":"11ed94f37ad561432545fe21f9872ce97796bc3246fa69d929c46ab8ff5ce8be"}
+[2019-06-21 08:35:56.554] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:56.585] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:35:56.771] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:56.771] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:56.773] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:56.775] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:56.858] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:35:56.861] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:35:56.864] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:35:56.867] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:35:57.521] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:59.693] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:35:59.694] [sharedprocess] [info] Installing the extension: formulahendry.code-runner
+[2019-06-21 08:36:00.797] [sharedprocess] [info] Extracted extension to C:\Users\msn71\.codemix\extensions\.formulahendry.code-runner-0.9.10: formulahendry.code-runner
+[2019-06-21 08:36:00.799] [sharedprocess] [info] Renamed to C:\Users\msn71\.codemix\extensions\formulahendry.code-runner-0.9.10
+[2019-06-21 08:36:00.800] [sharedprocess] [info] Installation completed. formulahendry.code-runner
+[2019-06-21 08:36:00.801] [sharedprocess] [info] Successfully installed the extension: formulahendry.code-runner
+[2019-06-21 08:36:00.815] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:00.830] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:36:00.852] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:00.867] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:00.867] [sharedprocess] [info] Installing the extension: dbaeumer.vscode-eslint
+[2019-06-21 08:36:00.998] [sharedprocess] [info] Extracted extension to C:\Users\msn71\.codemix\extensions\.dbaeumer.vscode-eslint-1.9.0: dbaeumer.vscode-eslint
+[2019-06-21 08:36:01.000] [sharedprocess] [info] Renamed to C:\Users\msn71\.codemix\extensions\dbaeumer.vscode-eslint-1.9.0
+[2019-06-21 08:36:01.001] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2019-06-21 08:36:01.001] [sharedprocess] [info] Successfully installed the extension: dbaeumer.vscode-eslint
+[2019-06-21 08:36:01.015] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:01.032] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:36:01.056] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:01.067] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:01.067] [sharedprocess] [info] Installing the extension: codemix.web
+[2019-06-21 08:36:01.082] [sharedprocess] [info] Extracted extension to C:\Users\msn71\.codemix\extensions\.codemix.web-0.9.6: codemix.web
+[2019-06-21 08:36:01.083] [sharedprocess] [info] Renamed to C:\Users\msn71\.codemix\extensions\codemix.web-0.9.6
+[2019-06-21 08:36:01.085] [sharedprocess] [info] Installation completed. codemix.web
+[2019-06-21 08:36:01.085] [sharedprocess] [info] Successfully installed the extension: codemix.web
+[2019-06-21 08:36:01.101] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:01.116] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:36:01.146] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:02.150] [sharedprocess] [info] Scanned user extensions: 10
+[2019-06-21 08:36:02.150] [sharedprocess] [info] Installing the extension: robinbentley.sass-indented
+[2019-06-21 08:36:02.332] [sharedprocess] [info] Extracted extension to C:\Users\msn71\.codemix\extensions\.robinbentley.sass-indented-1.5.1: robinbentley.sass-indented
+[2019-06-21 08:36:02.334] [sharedprocess] [info] Renamed to C:\Users\msn71\.codemix\extensions\robinbentley.sass-indented-1.5.1
+[2019-06-21 08:36:02.335] [sharedprocess] [info] Installation completed. robinbentley.sass-indented
+[2019-06-21 08:36:02.335] [sharedprocess] [info] Successfully installed the extension: robinbentley.sass-indented
+[2019-06-21 08:36:02.365] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-21 08:36:02.382] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:36:02.404] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-21 08:36:07.654] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-21 08:36:07.851] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:36:08.543] [sharedprocess] [info] Scanned user extensions: 11
+[2019-06-21 08:36:08.597] [sharedprocess] [info] Scanned system extensions: 71
+[2019-06-21 08:36:10.155] [sharedprocess] [info] Scanned user extensions: 11

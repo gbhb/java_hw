@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ce1002.a10.s107502558.maincontroller">
+   <children>
+      <Button layoutX="62.0" layoutY="34.0" mnemonicParsing="false" onAction="#open" text="Open File" />
+      <Button layoutX="150.0" layoutY="34.0" mnemonicParsing="false" onAction="#save" prefHeight="22.0" prefWidth="76.0" text="Save File" />
+      <Button layoutX="247.0" layoutY="34.0" mnemonicParsing="false" onAction="#insert" text="Insert time" />
+      <TextArea fx:id="text" layoutY="68.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="596.0" snapToPixel="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="68.0" />
+   </children>
+</AnchorPane>

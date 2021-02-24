@@ -1,0 +1,75 @@
+package pld;
+
+import pld.Visitor.Interpreter;
+
+public class hw2_2 {
+	public static void main(String[] args) {
+		Interpreter intp = new Interpreter();
+		(Boolean) (new And(new Lit(true), new Lit(false))).accept(intp) == false;
+		(Boolean) (new And(new Lit(true), new Lit(true))).accept(intp)  == true;
+		(Boolean) (new Or(new Lit(true), new Lit(false))).accept(intp)  == true;
+		(Boolean) (new Or(new Lit(false), new Lit(false))).accept(intp) == false;
+		(Boolean) (new Lit(true)).accept(intp) == true;
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+}
+
+abstract class Exp {
+	public abstract Object accept(Visitor v);
+}
+
+class Lit extends Exp {
+	public boolean val;
+
+	public Lit(boolean val) {
+		this.val = val;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+class and extends Exp {
+	public Exp e1, e2;
+	public and(Exp a1, Exp a2) {
+		e1 = a1;
+		e2 = a2;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+class or extends Exp {
+	public Exp e1, e2;
+	public or(Exp a1, Exp a2) {
+		e1 = a1;
+		e2 = a2;
+	}
+	public Object accept(Visitor v) {
+		return v.visit(this);
+	}
+}
+
+interface Visitor {
+	public Object visit(Lit e);
+	public Object visit(and n);
+	public Object visit(or n);
+	class Interpreter implements Visitor {
+		public Object visit(Lit n) {
+			return n.val;
+		}
+		public Object visit(and n) {
+			return (Boolean)n.e1.accept(this) & (Boolean)n.e2.accept(this);
+		}
+		public Object visit(or n) {
+		  return (Boolean)n.e1.accept(this) | (Boolean)n.e2.accept(this);
+		}
+	}
+}
